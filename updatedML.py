@@ -162,7 +162,7 @@ def objective(trial, X_train, y_train, model_name):
         params = {'classifier__penalty': penalty,
             'classifier__C': C,
             'classifier__solver': solver,
-            'classifier__max_iter': max_iter}c
+            'classifier__max_iter': max_iter}
         C = trial.suggest_float('C', 0.001, 1.0, log=True)
         kernel = trial.suggest_categorical('kernel', ['linear', 'rbf', 'sigmoid'])
         gamma = trial.suggest_categorical('gamma', ['scale', 'auto', 0.01, 0.1, 1])
