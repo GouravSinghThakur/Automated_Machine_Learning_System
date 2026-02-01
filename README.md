@@ -1,70 +1,101 @@
-AUTOML
+<p align="center">
+  <img src="https://img.icons8.com/color/96/artificial-intelligence.png" width="100"/>
+</p>
 
-Empowering Smarter Decisions Through Automated Innovation
+<h1 align="center">🤖 Automated Machine Learning System (AutoML)</h1>
 
-last-commit repo-top-language repo-language-count
-Built with the tools and technologies:
+<p align="center">
+  A modular, extensible AutoML pipeline that automates data ingestion, preprocessing, model training, evaluation, and deployment.
+</p>
 
-Python
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue"/>
+  <img src="https://img.shields.io/badge/Streamlit-UI-orange"/>
+  <img src="https://img.shields.io/badge/ML-AutoML-green"/>
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey"/>
+</p>
 
-Table of Contents
+---
 
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Overview
+## 📌 Overview
 
-AutoML is a versatile developer tool that automates the entire machine learning workflow—from data ingestion and preprocessing to model training, evaluation, and deployment. It supports multiple algorithms like Random Forest, Logistic Regression, SVM, and XGBoost, with built-in hyperparameter tuning and cross-validation to ensure optimal performance.
+The **Automated Machine Learning System** framework enables users to:
 
-Why AutoML?
+- Upload any CSV/XLSX dataset
+- Clean, preprocess, and feature engineer data
+- Train multiple ML models simultaneously
+- Compare model performance
+- Hyperparameter tune automatically
+- Select the best model based on evaluation
+- Deploy and export the final trained model
+- Use a Streamlit interface for user interaction
 
-This project accelerates your data-driven projects by providing an integrated pipeline that simplifies complex ML tasks. The core features include:
+This toolkit encapsulates a complete AutoML workflow with modular components for scalability and maintenance.
 
-🧩 Modular Pipeline: Seamlessly handle data loading, transformation, and deployment within a unified framework.
-🚀 Multi-Model Support: Experiment with various algorithms to find the best fit for your data.
-🎯 Hyperparameter Tuning: Optimize models efficiently with automated tuning and validation.
-📊 Visualization Tools: Gain insights through comprehensive performance metrics and visualizations.
-🔧 Easy Dependency Setup: Quickly install and integrate essential libraries like pandas, scikit-learn, and XGBoost.
-Getting Started
+---
 
-Prerequisites
+## 🧠 AutoML Workflow
 
-This project requires the following dependencies:
+The system handles the full machine learning pipeline:
 
-Programming Language: Python
-Package Manager: Conda
-Installation
+<p align="center">
+  <img src="https://img.icons8.com/color/48/data-configuration.png"/>
+  <img src="https://img.icons8.com/color/48/process.png"/>
+  <img src="https://img.icons8.com/color/48/artificial-intelligence.png"/>
+  <img src="https://img.icons8.com/color/48/combo-chart.png"/>
+  <img src="https://img.icons8.com/color/48/checklist.png"/>
+</p>
 
-Build AutoML from the source and install dependencies:
+1. **Data Upload & Inspection**  
+2. **Preprocessing & Cleaning**  
+3. **Feature Engineering & Selection**  
+4. **Model Training (XGBoost, RF, SVM, LR)**  
+5. **Evaluation & Hyperparameter Tuning**  
+6. **Model Selection & Export**  
+7. **Streamlit UI Interaction**
 
-Clone the repository:
+---
 
-❯ git clone https://github.com/GouravSinghThakur/AutoML
-Navigate to the project directory:
+## 🚀 Features
 
-❯ cd AutoML
-Install the dependencies:
+### 🔍 Automatic Data Handling
+- Handles missing values  
+- Encodes categorical variables  
+- Performs scaling & transformations
 
-Using conda:
+---
 
-❯ conda env create -f conda.yml
-Usage
+### 📊 Multiple Model Training
+Trains and compares:
 
-Run the project with:
+| Model | Included |
+|-------|:--------:|
+| Logistic Regression | ✔ |
+| Random Forest | ✔ |
+| XGBoost | ✔ |
+| SVM | ✔ |
 
-Using conda:
+---
 
-conda activate {venv}
-python {entrypoint}
-Testing
+### 📈 Automatic Evaluation
+Evaluates models using metrics such as:
 
-Automl uses the {test_framework} test framework. Run the test suite with:
+- Accuracy  
+- Precision  
+- Recall  
+- F1-Score  
 
-Using conda:
+---
 
-conda activate {venv}
-pytest
-⬆ Return
+### ⚙ Hyperparameter Optimization
+Performs automatic tuning for model optimization and selects the best model based on performance scores.
+
+---
+
+## 🛠 Installation
+
+Clone this repository:
+
+```bash
+git clone https://github.com/GouravSinghThakur/Automated_Machine_Learning_System
+cd Automated_Machine_Learning_System
